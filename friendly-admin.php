@@ -3,7 +3,7 @@
  * Plugin Name: Friendly Admin
  * Plugin URI: https://github.com/kubasanitrak/friendly-admin
  * Description: Client-friendly WordPress admin — custom dashboard page and role-based menu visibility.
- * Version: 0.1.0
+ * Version: 0.1.1
  * Author: kubasanitrak
  * Author URI: https://github.com/kubasanitrak
  * License: GPL-2.0+
@@ -18,7 +18,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('FA_VERSION', '0.1.0');
+define('FA_VERSION', '0.1.1');
 define('FA_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('FA_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('FA_PLUGIN_BASENAME', plugin_basename(__FILE__));
