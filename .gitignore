@@ -4,6 +4,10 @@ _TODO
 # Composer
 /vendor/
 
+# Node
+/node_modules/
+package-lock.json
+
 # OS / IDE
 .DS_Store
 .idea/
