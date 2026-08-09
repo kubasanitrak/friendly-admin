@@ -36,10 +36,15 @@
   gap: 0.4em;
   margin-bottom: 1em;
 }
+.fa-menu-roles__tab {
+  font-weight: 500;
+}
 .fa-menu-roles__tab.is-active {
-  border-color: #2271b1;
-  color: #2271b1;
-  background: #f0f6fc;
+  border-color: #135e96 !important;
+  color: #fff !important;
+  background: #2271b1 !important;
+  box-shadow: 0 0 0 1px #135e96;
+  font-weight: 600;
 }
 .fa-menu-roles__actions {
   display: flex;

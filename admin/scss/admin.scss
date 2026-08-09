@@ -45,10 +45,16 @@
     margin-bottom: 1em;
   }
 
-  &__tab.is-active {
-    border-color: #2271b1;
-    color: #2271b1;
-    background: #f0f6fc;
+  &__tab {
+    font-weight: 500;
+
+    &.is-active {
+      border-color: #135e96 !important;
+      color: #fff !important;
+      background: #2271b1 !important;
+      box-shadow: 0 0 0 1px #135e96;
+      font-weight: 600;
+    }
   }
 
   &__actions {
