@@ -1,0 +1,17 @@
+# Local notes (not distributed)
+_TODO
+
+# Composer
+/vendor/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+.cursor/
+
+# Logs
+*.log
+
+# Sass cache
+.sass-cache/
