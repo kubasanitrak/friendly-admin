@@ -98,7 +98,7 @@
 #fa_custom_dashboard {
   .inside {
     margin: 0;
-    padding: 12px 16px 16px;
+    padding: 0;
   }
 }
 
@@ -114,5 +114,22 @@ body.index-php.fa-custom-dashboard {
 
   #dashboard-widgets .meta-box-sortables {
     min-height: 0 !important;
+  }
+}
+
+.fa-dashboard {
+  .dashboard-col-container {
+    display: flex;
+    gap: 2rem;
+    .dashboard-col {
+
+    }
+  }
+  figure.wp-block-embed {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
   }
 }
